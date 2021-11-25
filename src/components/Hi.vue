@@ -66,9 +66,9 @@ export default {
    align-items: center;
   
 }
-.orange {
+.orangepps {
   display: flex;
-  text-decoration: none;
+  text-decoration: nones;
   color: #fff;
   background-color: #ff5000;
   height: 32px;

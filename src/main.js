@@ -4,6 +4,7 @@ import './plugins/element.js'
 import router from './router'
 
 Vue.config.productionTip = false
+Vue.prototype.asd=[].map
 
 new Vue({
   router,

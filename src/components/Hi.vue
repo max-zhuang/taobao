@@ -63,9 +63,11 @@ export default {
   flex-direction: row;
   justify-content: space-around;
   margin: 11px 0 0 3px;
-   align-items: center
+   align-items: center;
+  
 }
 .orange {
+  display: flex;
   text-decoration: none;
   color: #fff;
   background-color: #ff5000;
@@ -73,6 +75,7 @@ export default {
   width: 108px;
   border-radius: 4px;
   font-size: 16px;
-  text-align: center;
+  justify-content:center; 
+  align-items: center; 
 }
 </style>

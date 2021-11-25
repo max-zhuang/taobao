@@ -2,12 +2,14 @@
   <div id="app" class="app-box">
     <Search />
     <Show />
+    <Favorit />
   </div>
 </template>
 
 <script>
 import Show from "./components/Show.vue";
 import Search from "./components/Search.vue";
+import Favorit from './components/Favorit.vue'
 /**
  * search组件
  * show组件
@@ -16,6 +18,7 @@ export default {
   components: {
     Show,
     Search,
+    Favorit,
   },
 };
 </script>
